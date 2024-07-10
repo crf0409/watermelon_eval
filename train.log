@@ -1,0 +1,54 @@
+/home/siton01/anaconda3/envs/dino-main/bin/python /home/siton01/xigua/main.py 
+2024-07-10 13:53:25.137491: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 13:53:25.248496: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22453 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:3b:00.0, compute capability: 8.6
+2024-07-10 13:53:35.728211: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+Epoch 1/20
+2024-07-10 13:53:42.327270: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8907
+2024-07-10 13:53:43.295181: I tensorflow/stream_executor/cuda/cuda_blas.cc:1760] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+273/273 [==============================] - 79s 262ms/step - loss: 1.9267 - val_loss: 243.4366
+Epoch 2/20
+273/273 [==============================] - 71s 256ms/step - loss: 0.5357 - val_loss: 0.7462
+Epoch 3/20
+273/273 [==============================] - 71s 256ms/step - loss: 0.3898 - val_loss: 15.4867
+Epoch 4/20
+273/273 [==============================] - 70s 256ms/step - loss: 0.4036 - val_loss: 28.2575
+Epoch 5/20
+273/273 [==============================] - 70s 256ms/step - loss: 0.2254 - val_loss: 0.1027
+Epoch 6/20
+273/273 [==============================] - 71s 256ms/step - loss: 0.1778 - val_loss: 4.8424
+Epoch 7/20
+273/273 [==============================] - 71s 256ms/step - loss: 0.1380 - val_loss: 1.6657
+Epoch 8/20
+273/273 [==============================] - 70s 256ms/step - loss: 0.0909 - val_loss: 3.3683
+Epoch 9/20
+273/273 [==============================] - 71s 258ms/step - loss: 0.1058 - val_loss: 1.2489
+Epoch 10/20
+273/273 [==============================] - 71s 259ms/step - loss: 0.0867 - val_loss: 3.8478
+Epoch 11/20
+273/273 [==============================] - 72s 259ms/step - loss: 0.0816 - val_loss: 1.8240
+Epoch 12/20
+273/273 [==============================] - 72s 260ms/step - loss: 0.1380 - val_loss: 4.0586
+Epoch 13/20
+273/273 [==============================] - 72s 260ms/step - loss: 0.1169 - val_loss: 0.0421
+Epoch 14/20
+273/273 [==============================] - 72s 259ms/step - loss: 0.0652 - val_loss: 1.2260
+Epoch 15/20
+273/273 [==============================] - 72s 260ms/step - loss: 0.0646 - val_loss: 0.1562
+Epoch 16/20
+273/273 [==============================] - 71s 257ms/step - loss: 0.0493 - val_loss: 2.9199
+Epoch 17/20
+273/273 [==============================] - 72s 259ms/step - loss: 0.0672 - val_loss: 0.3418
+Epoch 18/20
+273/273 [==============================] - 71s 258ms/step - loss: 0.0462 - val_loss: 0.0651
+Epoch 19/20
+273/273 [==============================] - 71s 258ms/step - loss: 0.0422 - val_loss: 9.2670
+Epoch 20/20
+273/273 [==============================] - 71s 258ms/step - loss: 0.0471 - val_loss: 0.1348
+MAE: 0.3440
+MSE: 0.1387
+RMSE: 0.3724
+MAPE: 0.0331
+R2: 0.8264
+/home/siton01/anaconda3/envs/dino-main/lib/python3.8/site-packages/keras/utils/generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
