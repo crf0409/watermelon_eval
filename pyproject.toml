@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "watermelon_toolbox"
+version = "0.1.0"
+requires-python = ">=3.9"
+
+[project.dependencies]
+torch = "*"
+librosa = "*"
+opencv-python = "*"
+pydantic = "*"
+tqdm = "*"
+PyYAML = "*"
+
+[tool.setuptools.packages.find]
+where = ["watermelon_toolbox"]
