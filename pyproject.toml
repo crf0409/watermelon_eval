@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "watermelon_toolbox"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "torch",
+    "torchvision" ,
+    "librosa",
+    "opencv-python",
+    "pydantic",
+    "tqdm",
+    "PyYAML",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["watermelon_toolbox"]
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203"]
+
+[tool.mypy]
+python_version = "3.9"
