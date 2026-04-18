@@ -1,0 +1,118 @@
+# Archives
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.rar
+*.7z
+*.zst
+*.tar
+*.deb
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.keras
+*.h5
+*.bin
+*.onnx
+*.tflite
+*.pb
+
+# Large numpy/matlab data
+*.npy
+*.npz
+*.mat
+*.pkl
+*.dill
+
+# Dataset directories (often very large)
+dataset/
+datasets/
+dataset_*/
+data/raw/
+data/train/
+data/val/
+data/test/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+
+# Large images in frames directories
+frames/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.so
+.eggs/
+
+# Virtual environments
+.env
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs / runs
+*.log
+*.tfevents*
+wandb/
+runs/
+outputs/
+log/
+logs/
+
+# Baiduyun
+*.baiduyun*
+
+# Molecular dynamics / structural biology data
+*.xtc
+*.trr
+*.edr
+*.tpr
+*.gro
+*.pqr
+*.dx
+*.a3m
+*.cif
+*.mol2
+*.sdf
+*.pse
+
+# Large bioinformatics outputs
+*.fasta.gz
+*.fna.gz
+*.fa.gz
+
+# 3D modeling / simulation
+*.blend
+*.blend1
+
+# Project-specific exclusions
+dataset/
