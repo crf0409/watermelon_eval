@@ -3,6 +3,10 @@
 
 本文档基于 `data_preprocess.py` 脚本，说明 **西瓜品质评估** 数据集的目录结构、依赖环境以及如何加载并划分训练 / 验证集。
 
+**数据集下载链接**（Google Drive）：https://drive.google.com/file/d/1x-t5nCpCenO5o7Hbr8TavxzGrdMhPHag/view?usp=sharing
+
+**数据集介绍 / 来源页面**（IEEE DataPort，Watermelon appearance and knock correlate data sets with sugar content）：https://ieee-dataport.org/documents/watermelon-appearance-and-knock-correlate-data-sets-sugar-content
+
 ---
 
 ## 1. 依赖环境
